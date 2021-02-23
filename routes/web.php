@@ -29,4 +29,7 @@ Route::get('/post/{id?}/{name?}', function ($id=null, $name="Meiram") {
 // })->where('id', '[\d]+');
 });
 
+Route::get('/miko', function () {
+    return "Helo World";
+});
 
