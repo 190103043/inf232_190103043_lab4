@@ -24,8 +24,8 @@ Route::get('/home', function () {
     return redirect("/user");
 });
 
-Route::get('/post/{id?}/{name?}', function ($id=null, $name="Meiram") {
-    return "Your ID is:  " .$id . "<br>   My nickname is: " .$name;
+Route::get('/post/{id?}/{name?}', function ($id=null, $name1="Meirambek") {
+    return "Your ID is:  " .$id . "<br>   My nickname is: " .$name1;
 // })->where('id', '[\d]+');
 });
 
